@@ -4,7 +4,7 @@ import { useRouter, RouterLink } from 'vue-router';
 import * as Yup from 'yup';
 import axios from 'axios';
 import { useForm, useField, ErrorMessage } from 'vee-validate';
-import Toast from '../Components/ToastPage.vue'; 
+import Toast from '../components/ToastPage.vue'; 
 
 
 const api = axios.create({
