@@ -3,9 +3,9 @@
     <button
       class="back"
       @click="goBack"
-      style="background: none; border: none; cursor: pointer; display: flex; align-items: center"
+      style="background:none; border:none; cursor:pointer; display:flex; align-items:center;"
     >
-      <Icon icon="ion:arrow-back-outline" width="24" height="24" />
+      <Icon icon="fa6:arrow-left" width="20" height="20" />
     </button>
     <h3>Login</h3>
   </div>

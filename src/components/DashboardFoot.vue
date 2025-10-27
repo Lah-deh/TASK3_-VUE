@@ -1,22 +1,29 @@
+<script setup>
+import { RouterLink } from 'vue-router';
+// Import the Icon component from Iconify/Vue
+import { Icon } from '@iconify/vue';
+
+// No other script logic is needed as this is a purely presentational component.
+</script>
+
 <template>
   <footer class="footer-nav">
     <RouterLink to="/dashboard" class="nav-item">
-      <iconify-icon icon="mdi:home" width="24" height="24" />
+      <Icon icon="fa6-solid:house" class="icon" />
       <span>Home</span>
     </RouterLink>
 
     <RouterLink to="/tickets" class="nav-item">
-      <iconify-icon icon="mdi:ticket" width="24" height="24" />
+      <Icon icon="fa6-solid:ticket" class="icon" />
       <span>New Ticket</span>
     </RouterLink>
 
     <RouterLink to="/mine" class="nav-item">
-      <iconify-icon icon="mdi:chart-bar" width="24" height="24" />
+      <Icon icon="fa6-solid:chart-bar" class="icon" />
       <span>My Tickets</span>
     </RouterLink>
   </footer>
 </template>
 
-<script setup>
-import { RouterLink } from 'vue-router'
-</script>
+<style scoped>
+</style>

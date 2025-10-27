@@ -65,7 +65,7 @@ const onSubmit = handleSubmit(async (values) => {
       const user = response.data[0];
       localStorage.setItem("user", JSON.stringify(user));
       setToast({ message: "Login successful!", type: "success" });
-      setTimeout(() => router.push("/dashboard"), 1500);
+      setTimeout(() => router.push("/dashboard"), 1000);
     } else {
       setToast({
         message: "Invalid credentials. Please try again.",

@@ -3,6 +3,8 @@ import LandingPage from '../views/LandingPage.vue'
 import RegisterPage from '../views/RegisterPage.vue'
 import LoginPage from '../views/LoginPage.vue'
 import DashboardPage from '../views/DashboardPage.vue'
+import MinePage from '../views/MinePage.vue'
+import TicketsPage from '../views/TicketsPage.vue'
 
 const routes = [
   { path: '/', redirect: '/landing' },
@@ -14,6 +16,17 @@ const routes = [
     component: DashboardPage,
     meta: { requiresAuth: true } 
   },
+   
+  { 
+    path: '/tickets', 
+    component: TicketsPage,
+    meta: { requiresAuth: true } 
+  },
+  { 
+    path: '/mine', 
+    component: MinePage,
+    meta: { requiresAuth: true } 
+  },
 ]
 
 const router = createRouter({
@@ -21,7 +34,7 @@ const router = createRouter({
   routes
 })
 
-// Navigation guard
+
 router.beforeEach((to, from, next) => {
   const user = localStorage.getItem('user')
   if (to.meta.requiresAuth && !user) next('/login')
