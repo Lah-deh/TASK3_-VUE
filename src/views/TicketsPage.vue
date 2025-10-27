@@ -11,4 +11,5 @@
 import TicketHead4 from '../components/TicketHead4.vue'
 import TicketForm from '../components/TicketForm.vue'
 import DashboardFoot from '../components/DashboardFoot.vue'
+import "../styles/Tickets.scss"
 </script>

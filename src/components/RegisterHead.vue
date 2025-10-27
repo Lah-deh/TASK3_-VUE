@@ -3,9 +3,9 @@
     <button
       class="back"
       @click="goBack"
-      style="background:none; border:none; cursor:pointer; display:flex; align-items:center;"
+      style="background:none; border:none; cursor:pointer; display:flex; align-items:center ;"
     >
-      <Icon icon="fa6:arrow-left" width="20" height="20" />
+      <Icon icon="fa6:arrow-left" class ="icon"  />
     </button>
     <h3>Register</h3>
   </div>

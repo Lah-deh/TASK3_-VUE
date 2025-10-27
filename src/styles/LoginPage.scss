@@ -1,0 +1,75 @@
+.login-page{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10%;
+
+
+    margin-bottom: 20%;
+
+    Form{
+        .error{
+            color: red;
+            font-size: 12px;
+            text-align: center;
+        }
+        input{
+            height: 40px;
+            width: 100%;
+            border-radius: 20px;
+            border: none;
+            margin-bottom: 15px;
+            padding-left: 20px;
+            color: black;
+
+
+            :active, :focus{
+                outline: none;
+                border: none;
+            }
+        }
+
+        button{
+            height: 60px;
+            width: 100%;
+            border-radius: 10px;
+            border: none;
+            margin-bottom: 15px;
+            background-color: blue;
+            color: white;
+            font-weight: 600;
+            font-size: 20px;
+            
+
+        }
+    }
+
+    p{
+        text-align: center;
+    }
+}
+
+
+@media(min-width:768px){
+    .logg{
+        background-color: #242424;
+        padding: 2.5rem;
+        border-radius: 12px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+        margin-top: 5%;
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+@media(min-width:1024px){
+    .login-page{
+        Form{
+            input{
+                height: 60px;
+                font-size: 20px;
+            }
+        }
+    }
+}

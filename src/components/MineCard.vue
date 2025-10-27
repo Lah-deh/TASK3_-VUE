@@ -48,6 +48,7 @@
 import { reactive, ref, onMounted } from 'vue'
 import axios from 'axios'
 import Toast from './ToastPage.vue'
+import "../styles/Mine.scss"
 
 const toast = reactive({ message: '', type: '' })
 const tickets = ref([])

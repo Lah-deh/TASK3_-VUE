@@ -1,9 +1,8 @@
 <script setup>
 import { RouterLink } from 'vue-router';
-// Import the Icon component from Iconify/Vue
 import { Icon } from '@iconify/vue';
 
-// No other script logic is needed as this is a purely presentational component.
+
 </script>
 
 <template>
