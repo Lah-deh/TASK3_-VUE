@@ -1,44 +1,42 @@
-# .
+Ticket Management Web Application (Vue)
 
-This template should help get you started developing with Vue 3 in Vite.
+Live Demo
+https://task-3-vue.vercel.app/landing
 
-## Recommended IDE Setup
+Overview
+This project is a Vue.js implementation of a ticket management web application. It demonstrates how core application logic, user flows, and CRUD functionality can be implemented using Vue’s component-based architecture.
+The application focuses on authenticated access and structured ticket handling, reflecting patterns commonly used in production frontend systems.
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Features
+User authentication flow
+Protected ticket dashboard
+Create, view, edit, and delete tickets
+Dynamic rendering of ticket data
+Component-based UI structure
+Responsive layout
 
-## Recommended Browser Setup
+Technology Stack
+Vue.js
+JavaScript
+CSS
+Vercel (deployment)
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) 
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+Application Flow
+Users authenticate before accessing the dashboard
+Authenticated users are redirected to the ticket management page
+Users can create new tickets through a form
+Existing tickets can be edited or deleted
+Ticket data updates dynamically in the interface
 
-## Customize configuration
+Running the Project Locally:
 
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
+Clone the repository
+git clone
+Navigate into the project directory:
+cd task-3-vue
+Install dependencies:
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
+Start the development server:
 npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+View the application in your browser:
+http://localhost:5173
